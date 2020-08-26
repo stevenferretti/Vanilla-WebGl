@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MLB Baseball</title>
+		<style>
+			html, body {
+				margin: 0;
+				height: 100%;
+			}
+			#canvas {
+				width: 100%;
+				height: 100%;
+				display: block;
+				background: url(public/img/ballpark_compressed.jpg) no-repeat center center;
+    			background-size: cover;
+			}
+			#title {
+				position: absolute;
+				top: 250px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display:block;
+				color: white;
+			}
+
+			#description {
+				position: absolute;
+				top: 550px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display:block;
+				color: white;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="title">Title</div>
+		<div id="description">Description</div>
+		<canvas id="canvas"></canvas>
+		<script src="./public/js/three.js"></script>
+		<script src="./public/js/bundle.js" charset="utf-8"></script>
+	</body>
+</html>
