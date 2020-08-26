@@ -1,4 +1,4 @@
-# MLB Disney POC
+# Game Choosing POC
 
 POC of a game choosing application using WebGL
 
