@@ -1,4 +1,4 @@
-import getDeep from './../../utils/getDeep'
+import getDeep from '../utils/getDeep'
 export default class Game {
     constructor(dayNight, seriesDescription, awayTeam, homeTeam, venue, image){
         this.dayNight = dayNight;

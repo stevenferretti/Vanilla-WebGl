@@ -1,7 +1,7 @@
 import Http from './classes/http';
 const http = new Http();
 import Game from './classes/game'
-import getDeep from './../utils/getDeep';
+import getDeep from './utils/getDeep';
 
 export default class Model {
     constructor(view) {
