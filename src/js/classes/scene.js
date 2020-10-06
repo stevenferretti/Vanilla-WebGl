@@ -7,6 +7,12 @@ export default class Scene {
             canvas,
             alpha: true,
         });
+        /** 
+         * fov — Camera frustum vertical field of view.
+          aspect — Camera frustum aspect ratio.
+          near — Camera frustum near plane.
+          far — Camera frustum far plane.
+        */
         const fov = 75;
         const aspect = 2;  // the canvas default
         const near = 0.1;
