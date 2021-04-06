@@ -1,6 +1,6 @@
 # Game Choosing POC
 
-POC of a game choosing application using WebGL
+POC of a game choosing application using WebGL and a custom Vanilla JS MVC Framework
 
 ## Getting Started
 
